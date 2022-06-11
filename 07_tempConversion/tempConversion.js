@@ -1,8 +1,9 @@
-const ftoc = function() {
-
+const ctof = function(c) {
+return Number(((9/5)*c+32).toFixed(1));
 };
 
-const ctof = function() {
+const  ftoc = function(f) {
+  return Number((5/9*(f-32)).toFixed(1));
 
 };
 
